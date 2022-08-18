@@ -19,10 +19,10 @@ namespace MessageBoard.Models
     {
       builder.Entity<Topic>().HasData(
         new Topic { TopicId = 1, Title = "mxgp", Description = "word motocross championship." },
-        new Topic { TopicId = 5, Title = "wsx", Description = "world supercross championship"}
-        new Topic { TopicId = 2, Title = "motocross'", Description = "American motocross championship"},
+        new Topic { TopicId = 5, Title = "wsx", Description = "world supercross championship"},
+        new Topic { TopicId = 2, Title = "motocross", Description = "American motocross championship"},
         new Topic { TopicId = 3, Title = "supercross", Description = "American supercross championship"},
-        new Topic { TopicId = 4, Title = "fmx", Description = "freestyle freaks"},
+        new Topic { TopicId = 4, Title = "fmx", Description = "freestyle freaks"}
       );
     }
   }
